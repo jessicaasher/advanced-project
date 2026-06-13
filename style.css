@@ -11,9 +11,13 @@ li {
     list-style-type: none;
 }
 
+section {
+    background-color: rgb(245, 245, 245)
+}
+
 /* 
 
-Landing Page 
+LANDING PAGE
 
 */
 #landing-page {
