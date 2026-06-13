@@ -24,6 +24,9 @@ LANDING PAGE
     min-height: 100vh;
 }
 
+.header {
+    position: absolute;
+}
 
 /* 
 
