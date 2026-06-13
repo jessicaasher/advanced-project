@@ -12,7 +12,7 @@ li {
 }
 
 section {
-    background-color: rgb(245, 245, 245)
+    background-color: rgb(245, 245, 245);
 }
 
 /* 
@@ -20,7 +20,7 @@ section {
 LANDING PAGE
 
 */
-#landing-page {
+#landing {
     min-height: 100vh;
 }
 
