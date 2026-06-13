@@ -12,3 +12,12 @@
     height: 50px;
     filter: invert(0);
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link--list {
+    display: flex;
+}
