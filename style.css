@@ -77,6 +77,10 @@ section {
     background-color: black;
 }
 
+.link__hover-effect:hover:after {
+    left: 0;
+    width: 100;
+}
 /* 
 
 LANDING PAGE
