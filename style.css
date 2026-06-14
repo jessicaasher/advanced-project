@@ -222,5 +222,7 @@ PROJECTS
     position: absolute;
     top: 50%;
     left: 90px;
-    transform: translateY(-50)
+    transform: translateY(-50);
+    color: white;
+    max-width: 550px;
 }
