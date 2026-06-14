@@ -263,6 +263,9 @@ MODAL
     width: 25%;
     padding: 16px;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .modal__language--img {
