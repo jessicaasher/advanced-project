@@ -30,6 +30,7 @@ section {
 
 .container {
     padding: 50px 0;
+    width: 100%;
 }
 
 .row {
@@ -283,8 +284,4 @@ FOOTER
 footer {
     background-color: #242424;
     display: flex;
-}
-
-.footer__container {
-    margin: 0 auto;
 }
