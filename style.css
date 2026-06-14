@@ -80,7 +80,7 @@ section {
 }
 
 .link__hover-effect--white:after {
-    background-color: #fff;
+    background-color: #242424;
 }
 
 .link__hover-effect--black:after {
