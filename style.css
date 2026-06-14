@@ -221,6 +221,10 @@ PROJECTS
     overflow: hidden;
 }
 
+.project__wrapper:hover .project__description {
+    
+}
+
 .project__description {
     position: absolute;
     top: 50%;
