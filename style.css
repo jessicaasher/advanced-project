@@ -268,15 +268,15 @@ MODAL
     align-items: center;
 }
 
-.mondal__language:hover .language__name {
-
-
+.modal__language:hover .language__name {
+    transform: scale(1);
 }
 
 
 .language__name {
     position: absolute;
     bottom: -10px;
+    transform: scale (0);
 }
 
 .modal__language--img {
