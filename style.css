@@ -222,7 +222,7 @@ PROJECTS
 }
 
 .project__wrapper:hover .project__description {
-    
+    opacity: 1;
 }
 
 .project__description {
