@@ -298,6 +298,12 @@ footer {
     height: 70px;
 }
 
+.footer__social--list {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
 .footer__social--link,
 .footer__copyright {
     color: white;
