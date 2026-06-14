@@ -226,6 +226,10 @@ PROJECTS
     transform: translateY(-50%)
 }
 
+.project__wrapper:hover .project__img {
+    
+}
+
 .project__description {
     position: absolute;
     top: 50%;
