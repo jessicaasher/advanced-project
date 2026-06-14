@@ -231,6 +231,7 @@ PROJECTS
     top: 50%;
     left: 90px;
     transform: translateY(100%);
+    opacity: 0;
     color: white;
     max-width: 550px;
 }
