@@ -241,6 +241,11 @@ PROJECTS
 
 .project__img {
     width: 100%;
+    transition: all 600ms ease;
+}
+
+.project:hover .project__img {
+    transform: scale(1.07);
 }
 
 .project__wrapper {
