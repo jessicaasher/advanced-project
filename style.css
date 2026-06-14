@@ -209,3 +209,7 @@ PROJECTS
     font-size: 48px;
     margin-bottom: 60px;
 }
+
+.project__img {
+    width: 100%;
+}
