@@ -20,6 +20,10 @@ a {
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 section {
     background-color: rgb(245, 245, 245);
 }
@@ -92,7 +96,13 @@ LANDING PAGE
 }
 
 .main__btn {
-    
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    border-radius: 50%;
+    border: none;
+    background-color: #242424;
+    color: white;
 }
 
 
