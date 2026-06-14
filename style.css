@@ -242,6 +242,10 @@ PROJECTS
     max-width: 550px;
 }
 
+.project__wrapper:hover .project__wrapper--bg {
+    opacity: 0.7;
+}
+
 .project__wrapper--bg {
     position: absolute;
     top: 0;
