@@ -249,6 +249,16 @@ MODAL
 .modal__half {
     width: 50%;
 }
+
+.modal__about {
+    background-color: rgb(245, 245, 245);
+}
+
+.modal__contact {
+    background-color: #242424;
+    color: white;
+}
+
 /* 
 
 PROJECTS
