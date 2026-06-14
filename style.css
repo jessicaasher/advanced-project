@@ -89,7 +89,7 @@ section {
 
 .link__hover-effect:hover:after {
     left: 0;
-    width: 100;
+    width: 100%;
 }
 /* 
 
