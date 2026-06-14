@@ -246,7 +246,9 @@ MODAL
     overflow: hidden;
     display: flex;
 }
-
+.modal__half {
+    width: 50%;
+}
 /* 
 
 PROJECTS
