@@ -273,3 +273,13 @@ PROJECTS
 .project__description--para {
     margin: 16px 0;
 }
+
+/* 
+
+FOOTER
+
+*/
+
+footer {
+    background-color: #242424;
+}
