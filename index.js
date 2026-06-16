@@ -18,6 +18,7 @@
 // })
 const loading = document.querySelector('.modal__overlay--loading')
 const success = document.querySelector('.modal__overlay--success')
+loading.classList +=
 setTimeout(() => {
     console.log('it worked 1')
 }, 500)
