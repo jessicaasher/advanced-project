@@ -16,7 +16,7 @@
 //             console.log('this worked1')
 //         }
 // })
-
+const loading = document.querySelector('.modal__overlay--loading')
 setTimeout(() => {
     console.log('it worked 1')
 }, 500)
