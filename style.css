@@ -285,6 +285,7 @@ MODAL
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: relative;
 }
 
 .modal__about {
@@ -371,6 +372,14 @@ MODAL
     border-color: #f06449;
     color: #f06449;
 }
+
+.modal__overlay--loading {
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 /* 
 
 PROJECTS
