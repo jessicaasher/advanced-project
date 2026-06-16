@@ -17,6 +17,7 @@
 //         }
 // })
 const loading = document.querySelector('.modal__overlay--loading')
+const success = document.querySelector('.modal__overlay--success')
 setTimeout(() => {
     console.log('it worked 1')
 }, 500)
