@@ -15,7 +15,7 @@ function contact(event) {
             'template_stts2vc',
             event.target,
             '1WE98dJnq0vWLreyt'
-    ).then() ==> {
+    ).then() => {
         loading.classList.remove("modal__overlay--visible")
         success.classList += " modal__overlay--visible"
     }).catch(() => {
