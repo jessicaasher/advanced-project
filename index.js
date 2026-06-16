@@ -12,5 +12,7 @@ function contact(event) {
             'template_stts2vc',
             event.target,
             '1WE98dJnq0vWLreyt'
-        ).then()
+        ).then() ==> {
+            console.log('this worked1')
+        }
 }
