@@ -28,6 +28,29 @@ section {
     background-color: rgb(245, 245, 245);
 }
 
+input, textarea {
+    width: 100%;
+    background-color: #242424;
+    color: #fff;
+    outline: none;
+    border: 1px solid #c0c4cc;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    height: 40px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+    margin-top: 6px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .container {
     padding: 50px 0;
     width: 100%;
@@ -305,11 +328,16 @@ MODAL
 
 .modal__sub-title {
     margin: 12px 0 24px 0;
+    font-size: 14px;
 }
 
 .modal__para {
     margin-bottom: 12px;
     line-height: 1.75;
+}
+
+.form__item {
+    margin-bottom: 20px;
 }
 
 /* 
