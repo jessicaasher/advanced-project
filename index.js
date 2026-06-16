@@ -20,7 +20,7 @@ function contact(event) {
             success.classList += " modal__overlay--visible"
         }
 }).catch(() => {
-    
+    loading.classList.remove("modal__overlay--visible")
 })
 
 
