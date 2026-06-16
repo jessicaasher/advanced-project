@@ -18,10 +18,10 @@ function contact(event) {
     ).then() => {
         loading.classList.remove("modal__overlay--visible")
         success.classList += " modal__overlay--visible"
-    }).catch(() => {
+    }.catch(() => {
     loading.classList.remove("modal__overlay--visible")
     alert(
         "The email service is temporarily unavailable. Please contact me directly on jasherworks@gmail.com"
     )
-})
+})  
 }
