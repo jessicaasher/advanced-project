@@ -417,7 +417,15 @@ MODAL
     100% {
         transform: rotate(360deg);
     }
+}
 
+.modal__exit {
+    position: absolute;
+    top: 30px;
+    right: 40px;
+    color: #fff;
+    font-size: 36px;
+    z-index: 100%;
 }
 
 /* 
