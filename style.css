@@ -156,6 +156,21 @@ nav,
     background-color: #242424;
 }
 
+.dark-theme #personal-logo {
+    filter: none;
+}
+
+.dark-theme .scroll__icon {
+    border-color: white;
+}
+
+.dark-theme .scroll__icon:after{
+    background-color: white;
+}
+.dark-theme .mail__btn {
+    background-color: white;
+    color: #242424;
+}
 /* 
 
 LANDING PAGE
