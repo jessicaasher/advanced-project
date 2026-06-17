@@ -1,5 +1,8 @@
 let isModalOpen = false;
 
+function toggleContrast() {
+
+}
 
 function contact(event) {
     event.preventDefault();
