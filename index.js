@@ -3,7 +3,10 @@ let contrastToggle = false;
 
 function toggleContrast() {
     contrastToggle = !contrastToggle;
-    document.body.classList += " dark-theme"
+    if (contrastToggle) {
+        document.body.classList += " dark-theme"
+    }
+    
 }
 
 function contact(event) {
