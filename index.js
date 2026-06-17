@@ -1,8 +1,4 @@
-// 
 
-// 
-
-// 
 
 function contact(event) {
     event.preventDefault();
