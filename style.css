@@ -61,12 +61,6 @@ input:focus, textarea:focus {
     border-color: #f06449;
 }
 
-.modal--open {
-    z-index: 60;
-    box-shadow: 0 20px 80 px 0 rgb(0, 0, 0, 0.55);
-    visibility: visible;
-}
-
 .container {
     padding: 50px 0;
     width: 100%;
@@ -302,6 +296,11 @@ MODAL
     overflow: hidden;
     display: flex;
     visibility: hidden;
+}
+.modal--open .modal {
+    z-index: 60;
+    box-shadow: 0 20px 80 px 0 rgb(0, 0, 0, 0.55);
+    visibility: visible;
 }
 .modal__half {
     width: 50%;
