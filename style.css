@@ -63,7 +63,7 @@ input:focus, textarea:focus {
 
 .modal--open {
     z-index: 60;
-
+    
 }
 
 .container {
@@ -297,10 +297,10 @@ MODAL
     width: 90%;
     max-width: 1100px;
     height: 700px;
-    box-shadow: 0 20px 80 px 0 rgb(0, 0, 0, 0.55);
     border-radius: 20px;
     overflow: hidden;
     display: flex;
+    visibility: hidden;
 }
 .modal__half {
     width: 50%;
