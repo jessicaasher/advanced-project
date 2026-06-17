@@ -1,7 +1,7 @@
 let isModalOpen = false;
 
 function toggleContrast() {
-
+    document.body.classList += " dark-theme"
 }
 
 function contact(event) {
