@@ -131,7 +131,7 @@ nav,
 .header {
     opacity: 1;
     visibility: visible;
-    transition: all 600ms;
+    transition: all 600ms 800ms;
 }
 
 .modal--open nav,
