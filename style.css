@@ -131,6 +131,15 @@ nav,
 .header {
     opacity: 1;
     visibility: visible;
+    transition: all 600ms;
+}
+
+.modal--open nav,
+.modal--open .scroll,
+.modal--open .header {
+    opacity: 1;
+    visibility: visible;
+    transition: all 600ms;
 }
 
 /* 
