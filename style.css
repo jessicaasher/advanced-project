@@ -63,7 +63,8 @@ input:focus, textarea:focus {
 
 .modal--open {
     z-index: 60;
-    
+    box-shadow: 0 20px 80 px 0 rgb(0, 0, 0, 0.55);
+    visibility: visible;
 }
 
 .container {
