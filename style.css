@@ -125,6 +125,14 @@ input:focus, textarea:focus {
     left: 0;
     width: 100%;
 }
+
+nav,
+.scroll,
+.header {
+    opacity: 1;
+    visibility: visible;
+}
+
 /* 
 
 LANDING PAGE
