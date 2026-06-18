@@ -3,7 +3,8 @@ let contrastToggle = false;
 
 function moveBackground(event) {
     const shapes = document.querySelectorALL(".shape");
-    const x = event.client
+    const x = event.clientX;
+    const y = event.clientY;
 }
 
 function toggleContrast() {
