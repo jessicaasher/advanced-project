@@ -3,12 +3,13 @@ let contrastToggle = false;
 const scaleFactor = 1 / 20;
 
 function moveBackground(event) {
-    const shapes = document.querySelectorALL(".shape");
+    const shapes = document.querySelectorAll(".shape");
     const x = event.clientX * scaleFactor;
     const y = event.clientY * scaleFactor;
    
     for (let i = 0; i < shapes.length; ++i) {
         const isOdd = i % 2 !== 0;
+        console.log(isOdd)
         shapes[i].style.transform = 'translate(${x}px, $1{y}px)'
 
     }
