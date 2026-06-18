@@ -1,7 +1,9 @@
 let isModalOpen = false;
 let contrastToggle = false;
 
-function moveBackground(event)
+function moveBackground(event) {
+    const shapes = 
+}
 
 function toggleContrast() {
     contrastToggle = !contrastToggle;
