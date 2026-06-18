@@ -698,4 +698,8 @@ width = 80vh
     .header__para {
         font-size: 20px;
     }
+    .modal {
+        top: 0;
+        left: 0;
+    }
 }
