@@ -694,4 +694,7 @@ width = 80vh
     .title {
         font-size: 80px;
     }
+    .header__para {
+        font-size: 20px;
+    }
 }
