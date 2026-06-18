@@ -701,6 +701,7 @@ width = 80vh
     .modal {
         top: 0;
         left: 0;
+        transform: none;
         height: auto;
     }
 }
