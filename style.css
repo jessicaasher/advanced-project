@@ -703,5 +703,6 @@ width = 80vh
         left: 0;
         transform: none;
         height: auto;
+        width: 100%;
     }
 }
