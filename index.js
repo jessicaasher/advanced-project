@@ -8,6 +8,7 @@ function moveBackground(event) {
     const y = event.clientY * scaleFactor;
    
     for (let i = 0; i < shapes.length; ++i) {
+        const isOdd = 
         shapes[i].style.transform = 'translate(${x}px, $1{y}px)'
 
     }
