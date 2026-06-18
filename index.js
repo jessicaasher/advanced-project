@@ -7,7 +7,7 @@ function moveBackground(event) {
     const y = event.clientY;
    
     for (let i = 0; i < shapes.length; ++i) {
-        
+        shapes[i]
     }
 }
 
