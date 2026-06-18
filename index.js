@@ -7,7 +7,7 @@ function moveBackground(event) {
     const y = event.clientY;
    
     for (let i = 0; i < shapes.length; ++i) {
-        shapes[i].style.transform = 'translate(10%, 10%)'
+        shapes[i].style.transform = 'translate(${x}px, $1{x}px)'
     }
 }
 
