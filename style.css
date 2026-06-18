@@ -592,6 +592,7 @@ FOOTER
 */
 
 footer {
+    position: relative;
     background-color: rgb(245, 245, 245);
     display: flex;
     padding: 6% 0;
