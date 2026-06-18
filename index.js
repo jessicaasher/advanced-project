@@ -5,6 +5,10 @@ function moveBackground(event) {
     const shapes = document.querySelectorALL(".shape");
     const x = event.clientX;
     const y = event.clientY;
+   
+    for (let i = 0; i < shapes.length; ++i) {
+        
+    }
 }
 
 function toggleContrast() {
