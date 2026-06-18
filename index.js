@@ -2,7 +2,7 @@ let isModalOpen = false;
 let contrastToggle = false;
 
 function moveBackground(event) {
-    const shapes = 
+    const shapes = document.querySelectorALL
 }
 
 function toggleContrast() {
