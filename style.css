@@ -704,6 +704,6 @@ width = 80vh
         transform: none;
         height: auto;
         width: 100%;
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
