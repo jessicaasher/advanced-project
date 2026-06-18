@@ -711,3 +711,14 @@ width = 80vh
         width: 100%;
     }
 }
+
+/* Small phones */
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 52px;
+    }
+    .header__para {
+        font-size: 18px;
+    }
+}
