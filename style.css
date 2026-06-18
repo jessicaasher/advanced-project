@@ -645,6 +645,9 @@ shapes on the third column
 width = 80vw
 
 */
+.shapes {
+    position: fixed;
+}
 
 .shape--0 {
     height: 35vh;
