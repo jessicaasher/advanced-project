@@ -9,7 +9,7 @@ function moveBackground(event) {
    
     for (let i = 0; i < shapes.length; ++i) {
         const isOdd = i % 2 !== 0;
-        console.log(isOdd)
+        const oddInteger
         shapes[i].style.transform = 'translate(${x}px, $1{y}px)'
 
     }
