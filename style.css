@@ -691,5 +691,7 @@ width = 80vh
 
 /* Small phones, tablets, large smart phones */
 @media (max-width: 768px) {
-    
+    .title {
+        font-size: 80px;
+    }
 }
