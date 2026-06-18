@@ -705,6 +705,7 @@ width = 80vh
         height: auto;
         width: 100%;
         flex-direction: column-reverse;
+        border-radius: 0;
     }
     .modal__half {
         width: 100%;
