@@ -724,4 +724,7 @@ width = 80vh
     .nav__link:first-child {
         display: none;
     }
+    .project__description--para {
+        display: none;
+    }
 }
