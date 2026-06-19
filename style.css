@@ -733,4 +733,7 @@ width = 80vh
         width: 100%;
         text-align: center;
     }
+    .project__description--sub-title {
+        margin-bottom: 8px;
+    }
 }
