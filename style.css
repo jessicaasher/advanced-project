@@ -171,6 +171,7 @@ nav,
 
 .dark-theme .scroll__icon:after,
 .dark-theme .link__hover-effect--black:after {
+    content: "";
     background-color: white;
 }
 
@@ -178,6 +179,16 @@ nav,
     background-color: white;
     color: #242424;
 }
+
+.dark-theme footer {
+ background-color: #242424;
+}
+
+.project-card {
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
 /* 
 
 LANDING PAGE
@@ -288,6 +299,7 @@ nav {
     padding: 0 20px;
     height: 100px;
 }
+
 
 #personal-logo {
     width: 50px;
@@ -544,6 +556,7 @@ PROJECTS
     border-radius: 20px;
     box-shadow: 0 20px 80px 0 rgb (0, 0, 0, 0.45);
     overflow: hidden;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 .project__wrapper:before {
     content: "";
@@ -557,7 +570,10 @@ PROJECTS
     transition: opacity 450ms ease;
     z-index: 2;
     transform: translateY(100%);
+    transform: translateY(-8px);                /* lifts the card up */
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4); /* deeper shadow */
 }
+
 .project:hover .project__wrapper:before {
     transform: translateY(0);
     opacity: 0.7;
@@ -585,6 +601,7 @@ PROJECTS
     background-color: #1c1d25;
     opacity: 0;
 }
+
 
 .project__list{
     padding-top: 40px;
