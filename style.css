@@ -162,7 +162,11 @@ nav,
 }
 
 .dark-theme #personal-logo {
-    filter: none;
+    filter: brightness(0) invert(1); /* turns a dark logo white */
+}
+
+.dark-theme .nav__link--list {
+    filter: brightness(0) invert(1); /* turns a dark logo white */
 }
 
 .dark-theme .scroll__icon {
@@ -182,6 +186,12 @@ nav,
 
 .dark-theme footer {
  background-color: #242424;
+}
+
+.dark-theme .footer__logo--img,
+.dark-theme .footer__social--list,
+.dark-theme .footer__copyright {
+    filter: brightness(0) invert(1); /* turns a dark logo white */
 }
 
 .project-card {
