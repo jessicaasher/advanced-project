@@ -195,9 +195,18 @@ nav,
 }
 
 .project-card {
-  border-radius: 16px;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
+
+.dark-theme .project-card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+.dark-theme .project-card:hover {
+  transform: translateY(-8px);                /* lifts the card up */
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4); /* deeper shadow */
+}
+
 
 /* 
 
